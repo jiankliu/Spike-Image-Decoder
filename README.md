@@ -8,3 +8,7 @@ In the paper, we used experimental data and simulated spikes. To generate simula
 
 The model is easy to implement. The core part of the model is a naive multilayer preception plus a plain autoencoder. 
 
+See some demos here: 
+
+https://sites.google.com/site/jiankliu/hightlight/visual-coding-with-spikes?authuser=0
+
