@@ -9,7 +9,13 @@ The overall approach is part of our computational framework for visiual processi
 
 Yu, Z., Liu, J. K., Jia, S., Zhang, Y., Zheng, J., Tian, Y., and Huang, T., Toward the Next Generation of Retinal Neuroprosthesis: Visual Computation with Spikes. Engineering. 6:449-461 (2020) https://doi.org/10.1016/j.eng.2020.02.004
 
-In the paper, we used experimental data and simulated spikes. To generate simulated spikes, one can use any type of method in the field, such as linear-nonlinear model in neuroscience for retinal coding, or simple transcoding of image pixels into spikes by mapping pixel intensity directly in neuromorphic computing for spiking neural network.
+In the paper, we used experimental data and simulated spikes. 
+
+For experimental RGC data, please refer the paper below, where you can also find a set of data:
+
+Onken A., Liu J. K., Karunasekara C. R., Delis I., Gollisch T. and Panzeri S. Using Matrix and Tensor Factorizations for the Single-Trial Analysis of Population Spike Trains. PLoS Comput Biol 12(11): e1005189 (2016) https://doi.org/10.1371/journal.pcbi.1005189
+
+To generate simulated spikes, one can use any type of method in the field, such as linear-nonlinear model in neuroscience for retinal coding, or simple transcoding of image pixels into spikes by mapping pixel intensity directly in neuromorphic computing for spiking neural network.
 
 The model is easy to implement. The core part of the model is a naive multilayer preception plus a plain autoencoder. Refer SID.py for detials.
 
